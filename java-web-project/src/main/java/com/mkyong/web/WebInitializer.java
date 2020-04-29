@@ -1,6 +1,5 @@
 package com.mkyong.web;
 
-import com.mkyong.web.config.SpringConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
