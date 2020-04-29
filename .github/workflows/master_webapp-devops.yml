@@ -29,4 +29,4 @@ jobs:
         app-name: 'webapp-devops'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_4bc826bfdff44e50afa44154cd59cd58 }}
-        package: '/home/runner/work/AzureDevops/AzureDevops/java-web-project/target/*.jar'
+        package: '/home/runner/work/AzureDevops/AzureDevops/java-web-project/target/java-web-project.war'
